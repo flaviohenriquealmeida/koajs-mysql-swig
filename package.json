@@ -1,0 +1,21 @@
+{
+  "name": "koajs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --harmony server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express-load": "^1.1.14",
+    "koa": "^0.20.0",
+    "koa-router": "^4.3.2",
+    "koa-static": "^1.4.9",
+    "koa-swig": "^2.0.0",
+    "mysql": "^2.6.2",
+    "q": "^1.4.1"
+  }
+}
