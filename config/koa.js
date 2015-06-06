@@ -12,9 +12,10 @@ app.context.render = render({
 });
 app.use(serve('public'));
 
-// Middlewares da aplicação. A ordem é importante
 app.use(require('../app/middlewares/connection'));
-
+/*
+curioso, quando não acha o assets faz mais uma requisição para cada asset não encontrado
+*/
 app.use(router(app));
 
 load('models', {cwd: 'app'})

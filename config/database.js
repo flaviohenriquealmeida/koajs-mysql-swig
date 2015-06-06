@@ -5,7 +5,7 @@ var pool  = mysql.createPool({
   host     : 'localhost',
   user     : 'root',
   password : '',
-  database: 'fj26'
+  database: 'test'
 });
 
 console.log('Pool de conexão pronto para uso');
